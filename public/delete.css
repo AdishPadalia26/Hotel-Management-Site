@@ -1,0 +1,25 @@
+html {
+    margin: 0;
+       background-color: #e1d0ff;
+
+}
+.title{
+  position: absolute;
+  margin: 1% 40%;
+  border-bottom: 5px solid green;
+  margin-bottom: 25px;
+  text-align: center;
+  padding:25px;
+  color: rgb(71, 71, 95);
+}
+.btn{
+  margin:0 40%;
+}
+.third{
+  text-decoration: none;
+  color: white;
+}
+.third:hover{
+    text-decoration: none;
+    color: white;
+  }

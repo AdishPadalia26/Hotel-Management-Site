@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Details</title>
+    <link rel="stylesheet" href="/add.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+        <div class="position-absolute top-50 start-50 translate-middle">
+        <div class="bg">
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <h1 class="title">Customer Details</h1>
+            <form action="/add_customer.html" method="post">
+                <label for="name"> <h5>Enter Your Name:</h5></label><br>
+                <div class="name1">
+                    
+                    <input type="text"  name="fname" placeholder="First Name">
+                    <input type="text"  name="Mname" placeholder="Middle Name">
+                    <input type="text"  name="lname" placeholder="Last Name"><br><br>
+                </div>
+                
+                <label for="Id" class="second"> <h5>Enter  Customer ID:</h5></label>
+                <input type="tel"  name="Id" placeholder="CID"><br><br><br>
+                <label for="phoneNo" class="second"><h5>Enter Phone Number:</h5></label>
+                <input type="tel"  name="phoneNo" placeholder="Phone Number"><br><br><br>
+               <label for="age"  class="second"><h5>Enter  Age:</h5></label>
+                <input type="number" name="age" id="age"><br><br><br>
+                <label for="email" class="second"> <h5> Email-Id: </h5></label>
+                <input type="email"  name="email" placeholder="Email-Id"><br><br>
+                <label for="roomtype"><h5>Enter Room Type:</h5></label>
+                <input type="text"  name="rtype" placeholder="Room type"><br><br><br>
+                <label for="age"  class="second"><h5>Enter Check-In Date:</h5></label>
+                <input type="date" name="checkIn" id="age"><br><br><br>
+                <label for="age"  class="second"><h5>Enter Check-out Date:</h5></label>
+                <input type="date" name="checkOut" id="age"><br><br><br>
+                <h3>Services:</h3><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" name="taxi" value="option1">
+                    <label class="form-check-label" for="inlineRadio1">Taxi Service</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" name="gym" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">GYM</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"  name="cab" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">tourism cab</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"  name="bus" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">tourism bus</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"  name="spa" value="option2">
+                    <label class="form-check-label" for="inlineRadio2">Spa and sauna</label>
+                  </div><br><br><br>
+                <label for="roomtype"><h5>Enter Payment Method:</h5></label>
+                <input type="text"  name="payment" placeholder="Payment Method"><br><br><br>
+                <button class="box"> Add</button><br><br><br>
+            </form>
+           
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  
+        
+   
+</body>
+</html>

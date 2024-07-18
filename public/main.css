@@ -1,0 +1,77 @@
+.heading1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 2rem;
+    color: red;
+    font-family:'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container1{
+    margin-top: 0px;
+    /* background:-webkit-linear-gradient(#eecda3,#ef629f);
+     */
+         /* background:-webkit-linear-gradient(#eecda3,#ef629f); */
+
+    background: -webkit-linear-gradient(#FFDD00,#FBB034);
+
+}
+span{
+    display: inline-block;
+    align-items: center;
+    padding: 3% 4.4%;
+    font-size: 24px;
+    color: #1c19e0;
+
+}
+span:hover{
+    color:rgb(206, 18, 165);
+    cursor: pointer;
+}
+.third{
+    text-decoration: none;
+    color: #1c19e0;
+  }
+  .third:hover{
+    text-decoration: none;
+    color: rgb(206, 18, 165);
+  } 
+
+.Copyright{
+    font-size: 3rem;
+}
+.foot{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    
+}
+.sa{
+    padding:1rem;
+}
+.sa:hover{
+    color:gray;
+    cursor: pointer;
+}
+.white-section{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: -webkit-linear-gradient(#FFDD00,#FBB034);
+}
+img{
+ height: 500px;
+ width:750px;
+}
+.hotel{
+    margin:10% 20%
+}
+.entire{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background:-webkit-linear-gradient(#eecda3,#ef629f); */
+    background:-webkit-linear-gradient(#4568dc,#b06ab3);
+}

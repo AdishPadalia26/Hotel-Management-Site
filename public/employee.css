@@ -1,0 +1,28 @@
+.heading1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    background-color: rgb(117 255 105 / 73%);
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    color: rgb(29 64 195 / 95%);
+}
+
+.table{
+    margin: 50px 0px;
+    text-align: center;
+}
+.third{
+    text-decoration: none;
+    color: white;
+  }
+.third:hover{
+    text-decoration: none;
+    color: white;
+}
+h2{
+    color: blueviolet;
+    margin-left:40%;
+     
+   
+}

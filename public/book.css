@@ -1,0 +1,70 @@
+html{
+    margin: 0;
+    padding: 0;
+    background-color: #fbb;
+
+}
+
+  input{
+      text-align: center;
+  }
+  .gender{
+      margin: auto 15px;
+  }
+  .title{
+      margin-top: 90px;
+    border-bottom: 5px solid green;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+    color: rgb(71, 71, 95);
+}
+.box{
+    width: 200px;
+    border-radius: 100px;
+    height:50px;
+    background-color:#2dad33;
+    color:#f8f9fa;
+    border: 0.5px solid black;
+    align-items: center;
+    position: relative;
+    margin-left: 23%;
+    font-size: 25px;
+}
+.box:hover{
+    background-color:#54cf54;
+}
+.male{
+    margin-left: 5px;
+}
+.female{
+    margin-left: 5px;
+}
+.others{
+    margin-left: 8px;
+}
+.bg{
+    padding-top: 10%;
+    justify-content: center;
+}
+.name1{
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+/* .email{
+   margin-right: 30px;
+} */
+/* .password{
+    margin-right: 20px;
+ } */
+.second{
+    padding-right: 8%;
+} 
+.third{
+  text-decoration: none;
+  color: white;
+}
+.third:hover{
+    text-decoration: none;
+    color: white;
+  }
